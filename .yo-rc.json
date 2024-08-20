@@ -1,6 +1,7 @@
 {
   "generator-jhipster": {
     "applicationType": "monolith",
+    "appsFolders": ["mytask"],
     "authenticationType": "jwt",
     "baseName": "Company",
     "buildTool": "maven",
@@ -12,6 +13,7 @@
     "databaseType": "sql",
     "devDatabaseType": "h2Memory",
     "devServerPort": 4200,
+    "directoryPath": "../",
     "enableHibernateCache": false,
     "enableSwaggerCodegen": false,
     "enableTranslation": false,
@@ -23,6 +25,7 @@
     "messageBroker": false,
     "microfrontend": null,
     "microfrontends": [],
+    "monitoring": "prometheus",
     "nativeLanguage": "en",
     "packageName": "com.mycompany.myapp",
     "prodDatabaseType": "mysql",
@@ -30,7 +33,7 @@
     "searchEngine": false,
     "serverPort": null,
     "serverSideOptions": [],
-    "serviceDiscoveryType": false,
+    "serviceDiscoveryType": "no",
     "syncUserWithIdp": null,
     "testFrameworks": [],
     "websocket": false,
